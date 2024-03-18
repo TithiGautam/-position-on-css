@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            
+            position: relative;
+
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            position: absolute;
+        }
+        .green{
+            background-color: green;
+            z-index: 1;
+        }
+        .red{
+            background-color: red;
+            z-index: 2;
+        }
+        .yellow{
+            background-color: yellow;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box green"></div>
+        <div class="box red"></div>
+        <div class="box yellow"></div>
+    </div>
+</body>
+</html>
